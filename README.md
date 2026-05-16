@@ -1,39 +1,98 @@
-# Ömer Faruk Mila Portfolio
+# Ömer Faruk Mila | Personal Portfolio Website
 
-Professional animated portfolio website built with:
+A modern and responsive personal portfolio website developed to showcase my projects, technical skills, certificates, and software engineering journey.
 
-- HTML
-- CSS
+🔗 Live Website: https://omerfarukmila.com
+
+---
+
+## About The Project
+
+This project was built to create a professional online presence and present my academic background, technical progress, and personal projects as a Software Engineering student.
+
+The website includes a modern interface, interactive sections, responsive design, and portfolio content intended for professional networking and internship opportunities.
+
+---
+
+## Features
+
+- Responsive modern design
+- Interactive and animated user interface
+- Personal introduction section
+- Skills showcase
+- Project showcase section
+- Certificates section
+- Resume/CV access
+- Contact and social media integration
+- Custom domain support
+- Search engine optimization (SEO)
+- Website analytics integration
+
+---
+
+## Technologies Used
+
+### Frontend
+
+- HTML5
+- CSS3
 - JavaScript
+
+### Deployment & Hosting
+
+- Git
+- GitHub
+- GitHub Pages
+- Namecheap Custom Domain
+
+### Analytics & SEO
+
+- Google Analytics
+- Google Search Console
+
+### UI Libraries
+
 - Vanta.js
 - tsParticles
-- GitHub Pages ready structure
 
-## Folder Structure
+---
 
-```text
-omer-portfolio-pro/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── images/
-│   └── docs/
-└── README.md
-```
+## Website Sections
 
-## How to Run
+- Home
+- About Me
+- Skills
+- Projects
+- Certificates
+- Contact
 
-1. Open this folder in VS Code.
-2. Install or use the Live Server extension.
-3. Right-click `index.html`.
-4. Click **Open with Live Server**.
+---
 
-## What to Edit First
+## Project Purpose
 
-- Replace LinkedIn link in `index.html`.
-- Add your real CV as:
-  `assets/docs/Omer-Faruk-Mila-CV.pdf`
-- Add your real profile photo to:
-  `assets/images/profile.jpg`
-- Update project descriptions and GitHub links.
+The main purpose of this project is to build a strong professional profile and provide a central place to present technical skills, projects, and personal growth in software engineering.
+
+This website also serves as a portfolio platform for:
+
+- Internship applications
+- Professional networking
+- Project presentation
+- Personal branding
+
+---
+
+## Author
+
+**Ömer Faruk Mila**  
+Software Engineering Student  
+Eastern Mediterranean University
+
+Portfolio: https://omerfarukmila.com  
+GitHub: https://github.com/omermla  
+LinkedIn: https://www.linkedin.com/in/omerfarukmıla
+
+---
+
+## License
+
+This project is created for personal and educational purposes.
