@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Ömer Faruk Mila | Portfolio</title>
+  <meta name="description" content="Professional portfolio website of Ömer Faruk Mila, Software Engineering student." />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div id="vanta-bg"></div>
+  <div id="particles-js"></div>
+  <div class="aurora-bg"></div>
+  <div class="mesh-lines"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="scan-line"></div>
+  <div class="hero-orb"></div>
+
+  <div class="floating-tech">
+    <span class="tech-chip">&lt;/code&gt;</span>
+    <span class="tech-chip">Java</span>
+    <span class="tech-chip">UI/UX</span>
+    <span class="tech-chip">GitHub</span>
+    <span class="tech-chip">Software Engineering</span>
+    <span class="tech-chip">AI Projects</span>
+  </div>
+
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <span class="logo-name">Ömer Faruk Mila</span>
+        <span class="logo-role">Software Engineer</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-text reveal">
+        <div class="badge">Software Engineering Student</div>
+
+        <h1>Hi, I'm <span class="gradient-text">Ömer Faruk Mila</span></h1>
+
+        <p>
+          Software Engineering student currently improving my skills in web development, Java, and software projects
+          while building real-world experience through personal and academic work.<br />
+          <span class="typing-line" id="typingText"></span>
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          <a href="assets/docs/01Omer-Faruk-Mila-CV.pdf" class="btn btn-secondary" target="_blank">Download CV</a>
+        </div>
+      </div>
+
+      <aside class="profile-card reveal">
+        <div class="profile-avatar">
+          <img src="assets/images/profile.jpeg" alt="Ömer Faruk Mila">
+        </div>
+
+        <h2>Ömer Faruk Mila</h2>
+        <p class="role">Software Engineering Student</p>
+
+        <div class="stats">
+          <div class="stat">
+            <strong>2nd Year</strong>
+            <span>Software Engineering Student</span>
+          </div>
+
+          <div class="stat">
+            <a href="https://www.emu.edu.tr/" target="_blank" class="stat-link">
+              <strong>EMU</strong>
+              <span>Eastern Mediterranean University</span>
+            </a>
+          </div>
+
+          <div class="stat">
+            <strong>Web</strong>
+            <span>HTML, CSS, JavaScript</span>
+          </div>
+
+          <div class="stat">
+            <strong>Learning</strong>
+            <span>Java, C, Python, SQL</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-title reveal">
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <h3>Who I Am</h3>
+          <p>
+            I am a second-year Software Engineering student at Eastern Mediterranean University.
+            I am currently building my foundation in programming, web development, and software engineering principles
+            through coursework and personal projects.
+          </p>
+        </article>
+
+        <article class="glass-card reveal">
+          <h3>My Direction</h3>
+          <p>
+            My current focus is improving my practical skills in frontend development, Java, C, Python, and SQL.
+            I am working on small but meaningful projects to gain real experience and prepare myself for future
+            internship opportunities.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-title reveal">
+        <h2>Skills</h2>
+
+      </div>
+
+      <div class="skills-grid">
+
+        <a href="https://www.java.com/" target="_blank" class="skill-link">
+          <article class="skill reveal">
+            <div class="skill-icon-box">
+              <img class="skill-logo" src="assets/images/java.png" alt="Java Logo">
+            </div>
+
+            <h3>Java & OOP</h3>
+
+            <p>
+              Object-oriented programming fundamentals, classes, inheritance, and academic projects.
+            </p>
+
+          </article>
+        </a>
+
+        <article class="skill reveal">
+
+          <div class="skill-icon-box">
+            <img class="skill-logo" src="assets/images/frontend.png" alt="Frontend Logo">
+          </div>
+
+          <h3>Frontend Development</h3>
+
+          <p>
+            HTML, CSS, JavaScript, responsive design, and modern portfolio interfaces.
+          </p>
+
+        </article>
+
+        <a href="https://www.figma.com/" target="_blank" class="skill-link">
+          <article class="skill reveal">
+            <div class="skill-icon-box">
+              <img class="skill-logo" src="assets/images/figma.jfif" alt="Figma Logo">
+            </div>
+
+            <h3>UI/UX & Figma</h3>
+
+            <p>
+              Designing clean interfaces, layouts, and basic user experiences using Figma.
+            </p>
+
+          </article>
+        </a>
+        <article class="skill reveal">
+          <div class="skill-icon-box">
+            <img class="skill-logo" src="assets/images/git.jfif" alt="Git & GitHub Logo">
+          </div>
+          <h3>Git & GitHub</h3>
+          <p>
+            Basic version control, repositories, commits, and project publishing with GitHub Pages.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-title reveal">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <a href="https://github.com/omermla/dormitory-complaint-tracking-system" target="_blank" class="project-link">
+
+          <article class="project-card reveal">
+
+            <div>
+              <div class="project-icon">🏠</div>
+
+              <h3>Dormitory Complaint & Request Tracking System</h3>
+
+              <p>
+                A software engineering project focused on planning, requirements,
+                system documentation, and UI mockups for managing dormitory complaints and requests.
+              </p>
+            </div>
+
+            <div class="tags">
+              <span>SRS</span>
+              <span>PPM</span>
+              <span>UI Design</span>
+              <span>Documentation</span>
+            </div>
+
+          </article>
+
+        </a>
+
+        <article class="project-card reveal">
+          <div>
+            <div class="project-icon">💻</div>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              A responsive personal website built to present my skills, projects,
+              CV, and professional profile in a clean and modern way.
+            </p>
+          </div>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>GitHub Pages</span>
+          </div>
+        </article>
+
+
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+
+      <div class="section-title reveal">
+        <h2>Certificates & Learning</h2>
+      </div>
+
+      <div class="certificates-grid">
+
+        <article class="certificate-card reveal summit-card"
+          onclick="window.open('https://aisummit.emu.edu.tr/tr','_blank')">
+
+          <div class="certificate-icon">
+            <img class="summit-logo" src="assets/images/logo.png" alt="AI Summit Logo">
+          </div>
+
+          <h3>AI Summit’26</h3>
+
+          <p>EMU Software & AI Development Club</p>
+
+          <span>2026</span>
+
+          <a href="https://softaiclub.emu.edu.tr/verify?id=BFX-2026-000575" target="_blank" class="certificate-btn"
+            onclick="event.stopPropagation()">
+            View Certificate →
+          </a>
+
+        </article>
+        <article class="certificate-card reveal">
+          <div class="certificate-icon">
+            <img src="assets/images/aws.png" alt="AWS Cloud Clubs Logo">
+          </div>
+          <h3>Generative AI Bootcamp</h3>
+
+          <p>IKU AWS Cloud Club</p>
+
+          <span>2026</span>
+
+          <a href="assets/certificates/generative-ai-bootcamp.pdf" target="_blank" class="certificate-btn">
+            View Certificate →
+          </a>
+        </article>
+
+        <article class="certificate-card reveal summit-card"
+          onclick="window.open('https://www.techcareer.net/en','_blank')">
+
+          <div class="certificate-icon">
+            <img src="assets/images/techcareer.jfif" alt="Techcareer Logo">
+          </div>
+
+          <h3>SQL Bootcamp</h3>
+
+          <p>Techcareer.net</p>
+
+          <span>2025</span>
+
+          <a href="https://certification.techcareer.net/certificate/CERT-MGQNHDJK-9G5G2A" target="_blank"
+            class="certificate-btn" onclick="event.stopPropagation()">
+            View Certificate →
+          </a>
+
+        </article>
+
+        <article class="certificate-card reveal">
+          <div class="certificate-icon">
+            <img class="akbank-logo" src="assets/images/akbank.webp" alt="Akbank Logo">
+          </div>
+          <h3>AKBANK Deep Learning Bootcamp</h3>
+
+          <p>Akbank</p>
+
+          <span>2025</span>
+
+          <a href="assets/certificates/akbank.pdf" target="_blank" class="certificate-btn">
+            View Certificate →
+          </a>
+        </article>
+
+      </div>
+
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact-box reveal">
+        <h2>Let's Build Something</h2>
+        <p>
+          I am open to internship opportunities, project collaborations,
+          and learning-focused software development experiences.
+        </p>
+
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:hdkb5bjykf@privaterelay.appleid.com">
+            <img class="btn-icon" src="assets/images/mail.png" alt="Mail">
+            Email Me
+          </a>
+          <a class="btn btn-secondary" href="https://github.com/omermla" target="_blank">
+
+            <img class="btn-icon" src="assets/images/github.png" alt="GitHub">
+
+            GitHub
+          </a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/omermla" target="_blank">
+
+            <img class="btn-icon" src="assets/images/linkedin.png" alt="LinkedIn">
+
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Ömer Faruk Mila © 2026
+  </footer>
+</body>
+
+</html>
